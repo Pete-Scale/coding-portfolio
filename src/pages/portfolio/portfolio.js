@@ -1,6 +1,6 @@
 import React from 'react'
-import Project from '../components/Project'
-import portfolioData from '../assets/portfolioData.json'
+import Project from '../../components/Project/Project'
+import portfolioData from '../../assets/portfolioData.json'
 
 const Portfolio = () => {
   return (

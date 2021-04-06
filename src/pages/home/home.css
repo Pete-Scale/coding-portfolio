@@ -1,0 +1,14 @@
+/* change profile image size from bootstrap default */
+.profileImageSize {
+  max-width: 25%;
+}
+
+/* profile font styles */
+.profileFontChange {
+  font-size: 1.3rem;
+}
+
+/* restoring <em> italics functionality overriding bootstrap default */
+em {
+  font-style: italic;
+}

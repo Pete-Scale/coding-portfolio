@@ -1,0 +1,5 @@
+/* define hyperlinks as block element to accept margin */
+a {
+  display: inline-block;
+  padding-top: 1rem;
+}

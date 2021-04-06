@@ -1,0 +1,15 @@
+/* Changes all portfolio images to be same size square */
+.portfolioImageChange {
+  height: 10rem;
+  width: 10rem;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  border: 4px solid #343a40;
+  position: relative;
+}
+
+/* change font from bootstrap defaults */
+.portfolioFontChange {
+  font-size: 1.3rem;
+  margin-left: 3rem;
+}

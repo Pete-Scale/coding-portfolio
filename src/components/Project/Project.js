@@ -1,4 +1,5 @@
 import React from 'react'
+import './Project.css'
 
 const Project = (props) => (
   <section className="row mt-5">
