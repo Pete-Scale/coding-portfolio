@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Nav />
-      <main class="container my-4">
+      <main className="container my-4">
         <Switch>
           <Route exact path="/contact">
             <Header title="Contact" />

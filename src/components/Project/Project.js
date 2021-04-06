@@ -4,9 +4,9 @@ import './Project.css'
 const Project = (props) => (
   <section className="row mt-5">
     {/* column 1 */}
-    <div className="col-md-6">
-      <img src={props.image} className="portfolioImageChange float-left" alt={props.alt}/>
-      <a style={{display: "table-cell"}} href={props.project_href} target="_blank" rel="noopener noreferrer" className="portfolioFontChange mr-4">
+    <div className="col-md-6 d-flex">
+      <img src={props.image} className="portfolioImageChange" alt={props.alt}/>
+      <a style={{display: "table-cell"}} href={props.project_href} target="_blank" rel="noopener noreferrer" className="portfolioFontChange">
         {props.name}
       </a>
       <br/>
