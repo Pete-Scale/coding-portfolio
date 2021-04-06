@@ -7,6 +7,7 @@ const Portfolio = () => {
     <>
       {portfolioData.map(project => (
         <Project
+          key={project.id}
           id={project.id}
           name={project.name}
           project_href={project.project_href}
