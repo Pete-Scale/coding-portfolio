@@ -1,25 +1,22 @@
 /* change font from bootstrap defaults */
-.contactFontChange {
-  font-size: 1.5rem;
-  margin-top: 3rem;
+.contactFont {
+  font-size: 24px;
 }
 
-/* change phone icon size to match height of gmail icon */
-.phoneIconSize {
-  max-width: 20%;
+.position {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 30%;
 }
 
-/* changes font styles to keep text from stacking viewed in medium screens */
-@media screen and (max-width: 991px) and (min-width: 768px) {
-  .contactFontChange {
-      font-size: 1.25rem;
-      margin-top: 2rem;
+@media (max-width: 767px) {
+  .contactFont {
+    font-size: 20px;
   }
-} 
-
-/* changes the phone icon viewed in small screens back to same % size as the other icons to keep text spacing consistent once they stack reactively */
-@media screen and (max-width: 767px) {
-  .phoneIconSize {
-      max-width: 25%;
+  .position {
+    max-width: 100%;
+    text-align: center;
   }
 }
