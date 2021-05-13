@@ -3,11 +3,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from './pages/home/home'
-import Contact from  './pages/contact/contact'
-import Portfolio from './pages/portfolio/portfolio'
 import Nav from './components/Nav/Nav'
 import Header from './components/Header/Header'
+import Contact from  './pages/contact/contact'
+import Portfolio from './pages/portfolio/portfolio'
+import Home from './pages/home/home'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </main>
     </Router>
   );
