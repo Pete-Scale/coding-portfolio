@@ -1,14 +1,30 @@
 /* change profile image size from bootstrap default */
-.profileImageSize {
-  max-width: 25%;
+.profileImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 95%;
 }
 
 /* profile font styles */
-.profileFontChange {
-  font-size: 1.3rem;
+.profileFont {
+  font-size: 18px;
 }
 
 /* restoring <em> italics functionality overriding bootstrap default */
 em {
   font-style: italic;
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+  .profileImage {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 991px) and (max-width: 766px) {
+  .profileImage {
+    max-width: 50%;
+  }
 }
