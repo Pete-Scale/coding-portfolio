@@ -17,7 +17,7 @@ const Contact = () => {
       <section className="row">
         <div className="col-md-6 position">
           <p>LinkedIn</p>
-          <a href="https://www.linkedin.com/in/pete-scale-53935975/" target="_blank" rel="noreferrer" title="Pete Scale LinkedIn" className="pt-0">
+          <a href="https://www.linkedin.com/in/pete-scale/" target="_blank" rel="noreferrer" title="Pete Scale LinkedIn" className="pt-0">
             <span className="icons"><i className="fa fa-linkedin-square fa-3x"></i></span>
           </a>
         </div>
