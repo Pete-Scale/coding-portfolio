@@ -11,7 +11,7 @@ const portfolioData = [
     "id": 1,
     "name": "Morning Cup of JavaScript",
     "project_href": "https://secure-wave-92624.herokuapp.com/",
-    "repo_href": "https://github.com/Oliviapark113/morning_cup_of_javascript",
+    "repo_href": "https://github.com/Pete-Scale/morning_cup_of_javascript",
     "image": morningCup,
     "alt": "morning_cup_of_javascript_image",
     "description": "A full stack MERN application that caters to the JavaScript enthuiasts who are looking for an all-in-one website. Users have access to tech news, coding challenges, and a project inspiration generator!"
