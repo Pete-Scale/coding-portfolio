@@ -4,7 +4,7 @@ import './contact.css'
 const Contact = () => {
   return (
     <container className="contactFont">
-      <section className="row mt-5 format">
+      <section className="row mt-3 format">
         <div className="col-md-6 position">
           <p>petescale@gmail.com</p>
           <span className="icons"><i className="fa fa-envelope-square fa-3x"></i></span>
@@ -14,7 +14,7 @@ const Contact = () => {
           <span className="icons"><i className="fa fa-phone-square fa-3x"></i></span>
         </div>
       </section>
-      <section className="row">
+      <section className="row format">
         <div className="col-md-6 position">
           <p>LinkedIn</p>
           <a href="https://www.linkedin.com/in/pete-scale/" target="_blank" rel="noreferrer" title="Pete Scale LinkedIn" className="pt-0">
@@ -28,6 +28,7 @@ const Contact = () => {
           </a>
         </div>
       </section>
+      
     </container>
   )
 }

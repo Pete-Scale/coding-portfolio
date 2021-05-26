@@ -1,3 +1,26 @@
-.icons {
+/* .icons {
   margin: 0px 10px
+} */
+
+.footer-background {
+  background-color: #343a40;
+  color: white;
+}
+
+.title {
+  padding-right: 0.3rem;
+}
+
+.languages {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 0rem;
+}
+
+.resume {
+  color: #41d2e9;
+  padding-top: 0rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
 }

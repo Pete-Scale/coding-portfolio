@@ -2,14 +2,22 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => (
-  <div className="container-fluid text-center p-2">
-    <a href="https://github.com/Pete-Scale" target="_blank" rel="noreferrer" title="Pete Scale Github Profile">
-      <span className="icons"><i className="fa fa-github fa-3x"></i></span>
-    </a>
-    <a href="https://www.linkedin.com/in/pete-scale-53935975/" target="_blank" rel="noreferrer" title="Pete Scale LinkedIn">
-      <span className="icons"><i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></span>
-    </a>
-  </div>
+  <nav className="navbar fixed-bottom p-2 footer-background">
+    <div class="container-fluid justify-content-center">
+      <p className="nav-item languages">
+        <b className="title">Languages: </b>JavaScript ES6+, CSS3, HTML5, JQuery, Bootstrap, APIs, Node, Express, MySQL, Sequelize, MongoDB, Mongoose, React
+      </p>
+    </div>
+    <div class="container-fluid justify-content-center">
+      <ul className="nav">
+        <li className="nav-item">
+          <a href="https://drive.google.com/file/d/1ZMPyRjXWVjIzte434b-BSeAScQh28U9b/view?usp=sharing" target="_blank" rel="noreferrer" title="Pete Scale Resume" className="resume">
+            Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 )
 
 export default Footer

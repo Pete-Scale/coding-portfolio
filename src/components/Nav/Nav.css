@@ -4,6 +4,11 @@
   font-size: 1.5rem;
 }
 
+.navbar-background {
+  background-color: #343a40;
+  color: white;
+}
+
 /* navbar button link color */
 .nav-link {
   color: #41d2e9;

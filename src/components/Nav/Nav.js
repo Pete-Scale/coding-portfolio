@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = () => (
-  <nav className="navbar navbar-dark bg-dark">
+  <nav className="navbar navbar-background">
     <p className="navbar-brand">Pete Scale</p>
     <ul className="nav justify-content-end">
       <li className="nav-item">

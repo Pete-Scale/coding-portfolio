@@ -3,6 +3,10 @@
   font-size: 24px;
 }
 
+.format {
+  text-align: center;
+}
+
 .position {
   display: block;
   margin-left: auto;
